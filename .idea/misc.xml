@@ -13,6 +13,19 @@
         <entry key="..\:/Users/kauts/AndroidStudioProjects/StoreApps/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
         <entry key="..\:/Users/kauts/AndroidStudioProjects/StoreApps/app/src/main/res/layout/fragment_shop.xml" value="0.1" />
         <entry key="..\:/Users/kauts/AndroidStudioProjects/StoreApps/app/src/main/res/menu/item_menu.xml" value="0.13243243243243244" />
+        <entry key="app/src/main/res/drawable/bg_bottomnavigation.xml" value="0.1319078947368421" />
+        <entry key="app/src/main/res/drawable/button_shape.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/edittext_rectangle.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/ic_facebook.xml" value="0.1319078947368421" />
+        <entry key="app/src/main/res/drawable/ic_favorite.xml" value="0.1319078947368421" />
+        <entry key="app/src/main/res/drawable/ic_google_logo.xml" value="0.1319078947368421" />
+        <entry key="app/src/main/res/drawable/ic_rightarrow.xml" value="0.1319078947368421" />
+        <entry key="app/src/main/res/layout/activity_forgotpassword.xml" value="0.14" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.12" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.12681159420289856" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.12" />
+        <entry key="app/src/main/res/layout/fragment_bag.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.14" />
       </map>
     </option>
   </component>

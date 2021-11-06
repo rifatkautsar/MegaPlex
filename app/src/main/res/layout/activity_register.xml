@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+<data>
+    <variable
+        name="userViewmodel"
+        type="com.rifat.storeapps.ui.view.ViewModel.RegisterViewModel" />
+</data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Sign up"
+                android:fontFamily="@font/metropolis_bold"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputname"
+                    android:layout_width="match_parent"
+                    app:boxBackgroundMode="none"
+                    android:layout_height="60dp">
+                    <EditText
+                        android:id="@+id/editText"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/edittext_rectangle"
+                        android:inputType="text"
+                        android:layout_height="match_parent"
+                        android:hint="Name"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputemail"
+                    android:layout_below="@+id/inputname"
+                    android:layout_width="match_parent"
+                    app:boxBackgroundMode="none"
+                    android:layout_height="60dp">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:background="@drawable/edittext_rectangle"
+                        android:inputType="textEmailAddress"
+                        android:layout_height="match_parent"
+                        android:hint="Email"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_below="@+id/inputemail"
+                    android:layout_width="match_parent"
+                    app:boxBackgroundMode="none"
+                    android:layout_height="60dp">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:background="@drawable/edittext_rectangle"
+                        android:inputType="textPassword"
+                        android:layout_height="match_parent"
+                        android:hint="Password"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="right"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/readyhaveaccount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Already have an account?"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/btnlogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_toRightOf="@id/readyhaveaccount"
+                    android:src="@drawable/ic_rightarrow" />
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="343dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_shape"
+                android:text="SiGN UP"
+                app:backgroundTint="#F44336" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="70dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvsignup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="Or sign up with social account" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvsignup"
+                    android:orientation="horizontal"
+                    android:layout_centerHorizontal="true">
+
+                    <RelativeLayout
+                        android:id="@+id/btngoogle"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/button_shape">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_google_logo" />
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/btnfacebook"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/button_shape">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_facebook" />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
